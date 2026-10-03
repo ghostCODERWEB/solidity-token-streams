@@ -1,0 +1,19 @@
+{
+  "name": "solidity-token-streams",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Funded ERC20 streams with cliff-aware vesting, cancellation snapshots and permissionless beneficiary claims.",
+  "license": "MIT",
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "test": "npm run compile && node scripts/test.mjs",
+    "deploy": "npm run compile && node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "ethers": "6.15.0",
+    "ganache": "7.9.2",
+    "solc": "0.8.30"
+  }
+}

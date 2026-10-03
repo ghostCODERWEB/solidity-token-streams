@@ -1,0 +1,11 @@
+{
+  "name": "solidity-token-streams",
+  "title": "Linear token stream escrow",
+  "contract": "TokenStreams",
+  "description": "Funded ERC20 streams with cliff-aware vesting, cancellation snapshots and permissionless beneficiary claims.",
+  "args": [
+    "$TOKEN",
+    "$ADMIN"
+  ],
+  "assumptions": "Cancellable streams freeze earned value at cancellation and return only unvested funds. Claims always go to the configured recipient. Incoming token amounts must match exactly. No rebasing or fee-on-transfer token support."
+}

@@ -1,0 +1,7 @@
+node_modules
+artifacts/
+.env
+.env.*
+.DS_Store
+coverage/
+constructor.local.json
