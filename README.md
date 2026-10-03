@@ -13,7 +13,7 @@ npm ci
 npm test
 ```
 
-Tests compile with solc 0.8.30, optimizer 200 runs, and the Shanghai EVM target, then deploy to an in-process local chain. Tests require no RPC account, wallet key or funds. `npm run compile` emits ABI, bytecode, storage layouts and contract-size metadata under `artifacts/`.
+Tests compile with solc 0.8.37, optimizer 200 runs, and the Cancun EVM target, then deploy to an in-process local chain. Tests require no RPC account, wallet key or funds. `npm run compile` emits ABI, bytecode, storage layouts and contract-size metadata under `artifacts/`.
 
 ## Contract behavior
 

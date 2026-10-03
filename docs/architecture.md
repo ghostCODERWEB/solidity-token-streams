@@ -24,4 +24,4 @@ A failed precondition or external transfer reverts the whole transaction. Accoun
 
 ## Build reproducibility
 
-Pinned npm dependencies, exact compiler version, optimizer settings and explicit Shanghai EVM target. Compilation includes storage layouts and deployed-bytecode size validation against EIP-170. Generated build output is not committed.
+Pinned npm dependencies, exact compiler version, optimizer settings and explicit Cancun EVM target. Compilation includes storage layouts and deployed-bytecode size validation against EIP-170. Generated build output is not committed.

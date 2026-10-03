@@ -17,7 +17,7 @@ const input = {
   sources,
   settings: {
     optimizer: { enabled: true, runs: 200 },
-    evmVersion: "shanghai",
+    evmVersion: "cancun",
     outputSelection: {
       "*": {
         "*": [
